@@ -6,13 +6,17 @@ import styles from './App.module.css';
 
 import './global.css';
 
+// author: {avatar_url: "", name: ", role: ""}
+// publishedAt: Date
+// content: String
+
 const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://github.com/diego3g.png',
-      name: 'Diego Fernandes',
-      role: 'CTO @Rocketseat'
+      avatarUrl: 'https://github.com/micaelaandrade.png',
+      name: 'Micaela Andrade',
+      role: 'Dev'
     },
     content: [
       { type: 'paragraph', content: 'Fala galera 👋' },
